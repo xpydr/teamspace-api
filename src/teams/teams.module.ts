@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { TeamsController } from './teams.controller';
 
-@Module({})
+@Module({
+  controllers: [TeamsController],
+})
 export class TeamsModule {}
